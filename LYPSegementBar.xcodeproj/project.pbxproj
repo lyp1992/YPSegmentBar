@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D763885C2181934F0038C056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D763885B2181934F0038C056 /* AppDelegate.m */; };
+		D763885F2181934F0038C056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D763885E2181934F0038C056 /* ViewController.m */; };
+		D76388622181934F0038C056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76388602181934F0038C056 /* Main.storyboard */; };
+		D7638864218193510038C056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7638863218193510038C056 /* Assets.xcassets */; };
+		D7638867218193510038C056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7638865218193510038C056 /* LaunchScreen.storyboard */; };
+		D763886A218193510038C056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7638869218193510038C056 /* main.m */; };
+		D7638874218193510038C056 /* LYPSegementBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7638873218193510038C056 /* LYPSegementBarTests.m */; };
+		D763887F218193510038C056 /* LYPSegementBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D763887E218193510038C056 /* LYPSegementBarUITests.m */; };
+		D763888F218193C10038C056 /* LYPSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D763888E218193C10038C056 /* LYPSegmentBar.m */; };
+		D7638892218193E40038C056 /* LYPSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7638891218193E40038C056 /* LYPSegmentBarVC.m */; };
+		D7638895218193FA0038C056 /* LYPSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D7638894218193FA0038C056 /* LYPSegmentConfig.m */; };
+		D76388982181942F0038C056 /* UIView+LYPSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D76388972181942F0038C056 /* UIView+LYPSegmentBar.m */; };
+		D763889B2181B7E80038C056 /* LYPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D763889A2181B7E80038C056 /* LYPFirstViewController.m */; };
+		D763889E2181B7F10038C056 /* LYPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D763889D2181B7F10038C056 /* LYPSecondViewController.m */; };
+		D76388A12181B7FC0038C056 /* LYPThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76388A02181B7FC0038C056 /* LYPThreeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7638870218193510038C056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D763884F2181934F0038C056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76388562181934F0038C056;
+			remoteInfo = LYPSegementBar;
+		};
+		D763887B218193510038C056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D763884F2181934F0038C056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76388562181934F0038C056;
+			remoteInfo = LYPSegementBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D76388572181934F0038C056 /* LYPSegementBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPSegementBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D763885A2181934F0038C056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D763885B2181934F0038C056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D763885D2181934F0038C056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D763885E2181934F0038C056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D76388612181934F0038C056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7638863218193510038C056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7638866218193510038C056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7638868218193510038C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7638869218193510038C056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D763886F218193510038C056 /* LYPSegementBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPSegementBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7638873218193510038C056 /* LYPSegementBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSegementBarTests.m; sourceTree = "<group>"; };
+		D7638875218193510038C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D763887A218193510038C056 /* LYPSegementBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPSegementBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D763887E218193510038C056 /* LYPSegementBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSegementBarUITests.m; sourceTree = "<group>"; };
+		D7638880218193510038C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D763888D218193C10038C056 /* LYPSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPSegmentBar.h; sourceTree = "<group>"; };
+		D763888E218193C10038C056 /* LYPSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSegmentBar.m; sourceTree = "<group>"; };
+		D7638890218193E40038C056 /* LYPSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPSegmentBarVC.h; sourceTree = "<group>"; };
+		D7638891218193E40038C056 /* LYPSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSegmentBarVC.m; sourceTree = "<group>"; };
+		D7638893218193FA0038C056 /* LYPSegmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPSegmentConfig.h; sourceTree = "<group>"; };
+		D7638894218193FA0038C056 /* LYPSegmentConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSegmentConfig.m; sourceTree = "<group>"; };
+		D76388962181942F0038C056 /* UIView+LYPSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYPSegmentBar.h"; sourceTree = "<group>"; };
+		D76388972181942F0038C056 /* UIView+LYPSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYPSegmentBar.m"; sourceTree = "<group>"; };
+		D76388992181B7E80038C056 /* LYPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPFirstViewController.h; sourceTree = "<group>"; };
+		D763889A2181B7E80038C056 /* LYPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPFirstViewController.m; sourceTree = "<group>"; };
+		D763889C2181B7F10038C056 /* LYPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPSecondViewController.h; sourceTree = "<group>"; };
+		D763889D2181B7F10038C056 /* LYPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPSecondViewController.m; sourceTree = "<group>"; };
+		D763889F2181B7FC0038C056 /* LYPThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPThreeViewController.h; sourceTree = "<group>"; };
+		D76388A02181B7FC0038C056 /* LYPThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPThreeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76388542181934F0038C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D763886C218193510038C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7638877218193510038C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D763884E2181934F0038C056 = {
+			isa = PBXGroup;
+			children = (
+				D76388592181934F0038C056 /* LYPSegementBar */,
+				D7638872218193510038C056 /* LYPSegementBarTests */,
+				D763887D218193510038C056 /* LYPSegementBarUITests */,
+				D76388582181934F0038C056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D76388582181934F0038C056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76388572181934F0038C056 /* LYPSegementBar.app */,
+				D763886F218193510038C056 /* LYPSegementBarTests.xctest */,
+				D763887A218193510038C056 /* LYPSegementBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76388592181934F0038C056 /* LYPSegementBar */ = {
+			isa = PBXGroup;
+			children = (
+				D763888C218193950038C056 /* LYPSegmentBar */,
+				D763885A2181934F0038C056 /* AppDelegate.h */,
+				D763885B2181934F0038C056 /* AppDelegate.m */,
+				D763885D2181934F0038C056 /* ViewController.h */,
+				D763885E2181934F0038C056 /* ViewController.m */,
+				D76388992181B7E80038C056 /* LYPFirstViewController.h */,
+				D763889A2181B7E80038C056 /* LYPFirstViewController.m */,
+				D763889C2181B7F10038C056 /* LYPSecondViewController.h */,
+				D763889D2181B7F10038C056 /* LYPSecondViewController.m */,
+				D763889F2181B7FC0038C056 /* LYPThreeViewController.h */,
+				D76388A02181B7FC0038C056 /* LYPThreeViewController.m */,
+				D76388602181934F0038C056 /* Main.storyboard */,
+				D7638863218193510038C056 /* Assets.xcassets */,
+				D7638865218193510038C056 /* LaunchScreen.storyboard */,
+				D7638868218193510038C056 /* Info.plist */,
+				D7638869218193510038C056 /* main.m */,
+			);
+			path = LYPSegementBar;
+			sourceTree = "<group>";
+		};
+		D7638872218193510038C056 /* LYPSegementBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7638873218193510038C056 /* LYPSegementBarTests.m */,
+				D7638875218193510038C056 /* Info.plist */,
+			);
+			path = LYPSegementBarTests;
+			sourceTree = "<group>";
+		};
+		D763887D218193510038C056 /* LYPSegementBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D763887E218193510038C056 /* LYPSegementBarUITests.m */,
+				D7638880218193510038C056 /* Info.plist */,
+			);
+			path = LYPSegementBarUITests;
+			sourceTree = "<group>";
+		};
+		D763888C218193950038C056 /* LYPSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				D763888D218193C10038C056 /* LYPSegmentBar.h */,
+				D763888E218193C10038C056 /* LYPSegmentBar.m */,
+				D7638890218193E40038C056 /* LYPSegmentBarVC.h */,
+				D7638891218193E40038C056 /* LYPSegmentBarVC.m */,
+				D7638893218193FA0038C056 /* LYPSegmentConfig.h */,
+				D7638894218193FA0038C056 /* LYPSegmentConfig.m */,
+				D76388962181942F0038C056 /* UIView+LYPSegmentBar.h */,
+				D76388972181942F0038C056 /* UIView+LYPSegmentBar.m */,
+			);
+			path = LYPSegmentBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76388562181934F0038C056 /* LYPSegementBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7638883218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBar" */;
+			buildPhases = (
+				D76388532181934F0038C056 /* Sources */,
+				D76388542181934F0038C056 /* Frameworks */,
+				D76388552181934F0038C056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPSegementBar;
+			productName = LYPSegementBar;
+			productReference = D76388572181934F0038C056 /* LYPSegementBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D763886E218193510038C056 /* LYPSegementBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7638886218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBarTests" */;
+			buildPhases = (
+				D763886B218193510038C056 /* Sources */,
+				D763886C218193510038C056 /* Frameworks */,
+				D763886D218193510038C056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7638871218193510038C056 /* PBXTargetDependency */,
+			);
+			name = LYPSegementBarTests;
+			productName = LYPSegementBarTests;
+			productReference = D763886F218193510038C056 /* LYPSegementBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7638879218193510038C056 /* LYPSegementBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7638889218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBarUITests" */;
+			buildPhases = (
+				D7638876218193510038C056 /* Sources */,
+				D7638877218193510038C056 /* Frameworks */,
+				D7638878218193510038C056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D763887C218193510038C056 /* PBXTargetDependency */,
+			);
+			name = LYPSegementBarUITests;
+			productName = LYPSegementBarUITests;
+			productReference = D763887A218193510038C056 /* LYPSegementBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D763884F2181934F0038C056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYP;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = laiyongpeng;
+				TargetAttributes = {
+					D76388562181934F0038C056 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D763886E218193510038C056 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D76388562181934F0038C056;
+					};
+					D7638879218193510038C056 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D76388562181934F0038C056;
+					};
+				};
+			};
+			buildConfigurationList = D76388522181934F0038C056 /* Build configuration list for PBXProject "LYPSegementBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D763884E2181934F0038C056;
+			productRefGroup = D76388582181934F0038C056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D76388562181934F0038C056 /* LYPSegementBar */,
+				D763886E218193510038C056 /* LYPSegementBarTests */,
+				D7638879218193510038C056 /* LYPSegementBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76388552181934F0038C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7638867218193510038C056 /* LaunchScreen.storyboard in Resources */,
+				D7638864218193510038C056 /* Assets.xcassets in Resources */,
+				D76388622181934F0038C056 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D763886D218193510038C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7638878218193510038C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76388532181934F0038C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D763889E2181B7F10038C056 /* LYPSecondViewController.m in Sources */,
+				D763885F2181934F0038C056 /* ViewController.m in Sources */,
+				D7638895218193FA0038C056 /* LYPSegmentConfig.m in Sources */,
+				D76388982181942F0038C056 /* UIView+LYPSegmentBar.m in Sources */,
+				D7638892218193E40038C056 /* LYPSegmentBarVC.m in Sources */,
+				D763886A218193510038C056 /* main.m in Sources */,
+				D763885C2181934F0038C056 /* AppDelegate.m in Sources */,
+				D763888F218193C10038C056 /* LYPSegmentBar.m in Sources */,
+				D763889B2181B7E80038C056 /* LYPFirstViewController.m in Sources */,
+				D76388A12181B7FC0038C056 /* LYPThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D763886B218193510038C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7638874218193510038C056 /* LYPSegementBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7638876218193510038C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D763887F218193510038C056 /* LYPSegementBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7638871218193510038C056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76388562181934F0038C056 /* LYPSegementBar */;
+			targetProxy = D7638870218193510038C056 /* PBXContainerItemProxy */;
+		};
+		D763887C218193510038C056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76388562181934F0038C056 /* LYPSegementBar */;
+			targetProxy = D763887B218193510038C056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D76388602181934F0038C056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76388612181934F0038C056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7638865218193510038C056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7638866218193510038C056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7638881218193510038C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7638882218193510038C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7638884218193510038C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7638885218193510038C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7638887218193510038C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPSegementBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPSegementBar.app/LYPSegementBar";
+			};
+			name = Debug;
+		};
+		D7638888218193510038C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPSegementBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPSegementBar.app/LYPSegementBar";
+			};
+			name = Release;
+		};
+		D763888A218193510038C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPSegementBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPSegementBar;
+			};
+			name = Debug;
+		};
+		D763888B218193510038C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPSegementBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPSegementBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPSegementBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76388522181934F0038C056 /* Build configuration list for PBXProject "LYPSegementBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7638881218193510038C056 /* Debug */,
+				D7638882218193510038C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7638883218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7638884218193510038C056 /* Debug */,
+				D7638885218193510038C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7638886218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7638887218193510038C056 /* Debug */,
+				D7638888218193510038C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7638889218193510038C056 /* Build configuration list for PBXNativeTarget "LYPSegementBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D763888A218193510038C056 /* Debug */,
+				D763888B218193510038C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D763884F2181934F0038C056 /* Project object */;
+}
