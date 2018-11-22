@@ -3,4 +3,4 @@
 
 ### 演示
 
-[][https://github.com/lyp1992/YPSegmentBar/blob/master/Untitled3.gif]
+![](https://github.com/lyp1992/YPSegmentBar/blob/master/Untitled3.gif)
